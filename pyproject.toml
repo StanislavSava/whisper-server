@@ -1,0 +1,20 @@
+[project]
+name = "whisper-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10.13"
+dependencies = [
+    "fastapi>=0.123.7",
+    "numpy>=2.2.6",
+    "pydantic>=2.12.5",
+    "pywhispercpp",
+    "setuptools>=80.9.0",
+    "uvicorn[standard]>=0.38.0",
+    "webrtcvad>=2.0.10",
+    "whisper-cpp-python>=0.2.0",
+    "whispercpp>=0.0.17",
+]
+
+[tool.uv.sources]
+pywhispercpp = { git = "https://github.com/absadiki/pywhispercpp" }
