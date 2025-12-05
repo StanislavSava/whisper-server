@@ -10,5 +10,5 @@ A minimal real-time speech-to-text server powered by:
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
